@@ -1,0 +1,2571 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/concat_1" out_port_id="0"/>
+		<IR id="42" name="mixnet-l/mixnet_model/blocks_1/concat_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/split:3" out_port_id="3"/>
+		<IR id="772" name="mixnet-l/mixnet_model/blocks_16/split" out_port_id="6"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/conv2d_69/Conv2D" out_port_id="0"/>
+		<IR id="667" name="mixnet-l/mixnet_model/blocks_14/conv2d_69/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/concat_1" out_port_id="0"/>
+		<IR id="85" name="mixnet-l/mixnet_model/blocks_2/concat_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/conv2d_63/Conv2D" out_port_id="0"/>
+		<IR id="608" name="mixnet-l/mixnet_model/blocks_13/conv2d_63/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/swish_f32" out_port_id="0"/>
+		<IR id="871" name="mixnet-l/mixnet_model/blocks_18/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/conv2d_89/Conv2D" out_port_id="0"/>
+		<IR id="867" name="mixnet-l/mixnet_model/blocks_18/conv2d_89/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/split_2:1" out_port_id="1"/>
+		<IR id="711" name="mixnet-l/mixnet_model/blocks_14/split_2" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/conv2d_45/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="446" name="mixnet-l/mixnet_model/blocks_9/conv2d_45/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/conv2d_84/Conv2D" out_port_id="0"/>
+		<IR id="816" name="mixnet-l/mixnet_model/blocks_17/conv2d_84/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/depthwise_conv2d_19/depthwise" out_port_id="0"/>
+		<IR id="358" name="mixnet-l/mixnet_model/blocks_8/depthwise_conv2d_19/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/se/Mean" out_port_id="0"/>
+		<IR id="162" name="mixnet-l/mixnet_model/blocks_4/se/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/split_2" out_port_id="0"/>
+		<IR id="504" name="mixnet-l/mixnet_model/blocks_10/split_2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/split" out_port_id="0"/>
+		<IR id="665" name="mixnet-l/mixnet_model/blocks_14/split" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/split_1:1" out_port_id="1"/>
+		<IR id="855" name="mixnet-l/mixnet_model/blocks_17/split_1" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/conv2d_92/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="907" name="mixnet-l/mixnet_model/blocks_18/conv2d_92/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/depthwise_conv2d_49/depthwise" out_port_id="0"/>
+		<IR id="778" name="mixnet-l/mixnet_model/blocks_16/depthwise_conv2d_49/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/split_1:1" out_port_id="1"/>
+		<IR id="354" name="mixnet-l/mixnet_model/blocks_8/split_1" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/se/Sigmoid" out_port_id="0"/>
+		<IR id="851" name="mixnet-l/mixnet_model/blocks_17/se/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/se/Sigmoid" out_port_id="0"/>
+		<IR id="648" name="mixnet-l/mixnet_model/blocks_13/se/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_11/conv2d_53/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="515" name="mixnet-l/mixnet_model/blocks_11/batch_normalization/FusedBatchNormV3/mean/Fused_Mul_1998119983_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_11/se/Sigmoid" out_port_id="0"/>
+		<IR id="539" name="mixnet-l/mixnet_model/blocks_11/se/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/se/conv2d_22/Conv2D" out_port_id="0"/>
+		<IR id="225" name="mixnet-l/mixnet_model/blocks_5/se/conv2d_22/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/conv2d_12/Conv2D" out_port_id="0"/>
+		<IR id="130" name="mixnet-l/mixnet_model/blocks_3/conv2d_12/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/depthwise_conv2d_35/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="621" name="3494134944_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/split_2" out_port_id="0"/>
+		<IR id="445" name="mixnet-l/mixnet_model/blocks_9/split_2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/se/mul" out_port_id="0"/>
+		<IR id="708" name="mixnet-l/mixnet_model/blocks_14/se/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/se/conv2d_16/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="169" name="mixnet-l/mixnet_model/blocks_4/se/conv2d_16/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/se/conv2d_76/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="748" name="mixnet-l/mixnet_model/blocks_15/se/conv2d_76/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/Identity" out_port_id="0"/>
+		<IR id="90" name="mixnet-l/mixnet_model/blocks_2/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/Add" out_port_id="0"/>
+		<IR id="90" name="mixnet-l/mixnet_model/blocks_2/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/split_1:1" out_port_id="1"/>
+		<IR id="80" name="mixnet-l/mixnet_model/blocks_2/split_1" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/split:1" out_port_id="1"/>
+		<IR id="62" name="mixnet-l/mixnet_model/blocks_2/split" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/split:3" out_port_id="3"/>
+		<IR id="99" name="mixnet-l/mixnet_model/blocks_3/split" out_port_id="6"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/se/conv2d_80/Conv2D" out_port_id="0"/>
+		<IR id="791" name="mixnet-l/mixnet_model/blocks_16/se/conv2d_80/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/depthwise_conv2d_49/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="777" name="3493734940_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/depthwise_conv2d_8/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="106" name="3494534948_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/split" out_port_id="0"/>
+		<IR id="306" name="mixnet-l/mixnet_model/blocks_7/split" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/se/mul" out_port_id="0"/>
+		<IR id="442" name="mixnet-l/mixnet_model/blocks_9/se/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/depthwise_conv2d_44/depthwise" out_port_id="0"/>
+		<IR id="734" name="mixnet-l/mixnet_model/blocks_15/depthwise_conv2d_44/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/head/batch_normalization/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="920" name="mixnet-l/mixnet_model/head/batch_normalization/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/se/conv2d_72/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="703" name="mixnet-l/mixnet_model/blocks_14/se/conv2d_72/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/split:1" out_port_id="1"/>
+		<IR id="190" name="mixnet-l/mixnet_model/blocks_5/split" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/depthwise_conv2d_36/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="623" name="3512135124_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/conv2d_30/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="290" name="mixnet-l/mixnet_model/blocks_6/conv2d_30/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/split_2:1" out_port_id="1"/>
+		<IR id="50" name="mixnet-l/mixnet_model/blocks_1/split_2" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/Identity" out_port_id="0"/>
+		<IR id="763" name="mixnet-l/mixnet_model/blocks_15/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/batch_normalization_2/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="763" name="mixnet-l/mixnet_model/blocks_15/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/Identity" out_port_id="0"/>
+		<IR id="662" name="mixnet-l/mixnet_model/blocks_13/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/Add" out_port_id="0"/>
+		<IR id="662" name="mixnet-l/mixnet_model/blocks_13/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/concat_1" out_port_id="0"/>
+		<IR id="629" name="mixnet-l/mixnet_model/blocks_13/concat_1" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/concat_2" out_port_id="0"/>
+		<IR id="509" name="mixnet-l/mixnet_model/blocks_10/concat_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/depthwise_conv2d_41/depthwise" out_port_id="0"/>
+		<IR id="685" name="mixnet-l/mixnet_model/blocks_14/depthwise_conv2d_41/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_0/batch_normalization_1/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="18" name="mixnet-l/mixnet_model/blocks_0/batch_normalization_1/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_11/se/mul" out_port_id="0"/>
+		<IR id="540" name="mixnet-l/mixnet_model/blocks_11/se/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/depthwise_conv2d_25/depthwise" out_port_id="0"/>
+		<IR id="421" name="mixnet-l/mixnet_model/blocks_9/depthwise_conv2d_25/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/swish_f32_1" out_port_id="0"/>
+		<IR id="838" name="mixnet-l/mixnet_model/blocks_17/swish_f32_1/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/se/conv2d_71/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="697" name="mixnet-l/mixnet_model/blocks_14/se/conv2d_71/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/split_1" out_port_id="0"/>
+		<IR id="354" name="mixnet-l/mixnet_model/blocks_8/split_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/depthwise_conv2d_21/depthwise" out_port_id="0"/>
+		<IR id="362" name="mixnet-l/mixnet_model/blocks_8/depthwise_conv2d_21/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/se/Mean" out_port_id="0"/>
+		<IR id="578" name="mixnet-l/mixnet_model/blocks_12/se/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_11/se/Mean" out_port_id="0"/>
+		<IR id="528" name="mixnet-l/mixnet_model/blocks_11/se/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/se/Sigmoid" out_port_id="0"/>
+		<IR id="441" name="mixnet-l/mixnet_model/blocks_9/se/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/Identity" out_port_id="0"/>
+		<IR id="603" name="mixnet-l/mixnet_model/blocks_12/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/Add" out_port_id="0"/>
+		<IR id="603" name="mixnet-l/mixnet_model/blocks_12/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/conv2d_68/Conv2D" out_port_id="0"/>
+		<IR id="656" name="mixnet-l/mixnet_model/blocks_13/conv2d_68/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/se/mul" out_port_id="0"/>
+		<IR id="284" name="mixnet-l/mixnet_model/blocks_6/se/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_11/depthwise_conv2d_30/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="521" name="3498534988_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/concat" out_port_id="0"/>
+		<IR id="27" name="mixnet-l/mixnet_model/blocks_1/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/concat_1" out_port_id="0"/>
+		<IR id="688" name="mixnet-l/mixnet_model/blocks_14/concat_1" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/se/swish_f32" out_port_id="0"/>
+		<IR id="702" name="mixnet-l/mixnet_model/blocks_14/se/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/depthwise_conv2d_57/depthwise" out_port_id="0"/>
+		<IR id="880" name="mixnet-l/mixnet_model/blocks_18/depthwise_conv2d_57/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/swish_f32_1" out_port_id="0"/>
+		<IR id="319" name="mixnet-l/mixnet_model/blocks_7/swish_f32_1/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/depthwise_conv2d_57/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="879" name="3512935132_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/conv2d_1/Conv2D" out_port_id="0"/>
+		<IR id="24" name="mixnet-l/mixnet_model/blocks_1/conv2d_1/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/split:1" out_port_id="1"/>
+		<IR id="135" name="mixnet-l/mixnet_model/blocks_4/split" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/se/mul" out_port_id="0"/>
+		<IR id="759" name="mixnet-l/mixnet_model/blocks_15/se/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/concat_1" out_port_id="0"/>
+		<IR id="264" name="mixnet-l/mixnet_model/blocks_6/concat_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/split_1" out_port_id="0"/>
+		<IR id="149" name="mixnet-l/mixnet_model/blocks_4/split_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/depthwise_conv2d_21/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="361" name="3502935032_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/split_1:1" out_port_id="1"/>
+		<IR id="472" name="mixnet-l/mixnet_model/blocks_10/split_1" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/depthwise_conv2d_12/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="207" name="3495734960_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_0/depthwise_conv2d/depthwise" out_port_id="0"/>
+		<IR id="11" name="mixnet-l/mixnet_model/blocks_0/depthwise_conv2d/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/se/conv2d_11/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="123" name="mixnet-l/mixnet_model/blocks_3/se/conv2d_11/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/concat_1" out_port_id="0"/>
+		<IR id="809" name="mixnet-l/mixnet_model/blocks_16/concat_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/batch_normalization_2/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="602" name="mixnet-l/mixnet_model/blocks_12/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/depthwise_conv2d_46/depthwise" out_port_id="0"/>
+		<IR id="738" name="mixnet-l/mixnet_model/blocks_15/depthwise_conv2d_46/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/se/conv2d_38/Conv2D" out_port_id="0"/>
+		<IR id="379" name="mixnet-l/mixnet_model/blocks_8/se/conv2d_38/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/se/conv2d_49/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="490" name="mixnet-l/mixnet_model/blocks_10/se/conv2d_49/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/concat" out_port_id="0"/>
+		<IR id="781" name="mixnet-l/mixnet_model/blocks_16/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/depthwise_conv2d_32/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="564" name="3505335056_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/swish_f32_1" out_port_id="0"/>
+		<IR id="635" name="mixnet-l/mixnet_model/blocks_13/swish_f32_1/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/split:1" out_port_id="1"/>
+		<IR id="99" name="mixnet-l/mixnet_model/blocks_3/split" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/split" out_port_id="0"/>
+		<IR id="340" name="mixnet-l/mixnet_model/blocks_8/split" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/conv2d_19/Conv2D" out_port_id="0"/>
+		<IR id="192" name="mixnet-l/mixnet_model/blocks_5/conv2d_19/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/conv2d_19/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="191" name="mixnet-l/mixnet_model/blocks_5/conv2d_19/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/Relu_1" out_port_id="0"/>
+		<IR id="77" name="mixnet-l/mixnet_model/blocks_2/Relu_1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/batch_normalization_2/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="513" name="mixnet-l/mixnet_model/blocks_10/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/se/mul" out_port_id="0"/>
+		<IR id="174" name="mixnet-l/mixnet_model/blocks_4/se/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/split_1:1" out_port_id="1"/>
+		<IR id="35" name="mixnet-l/mixnet_model/blocks_1/split_1" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/split:1" out_port_id="1"/>
+		<IR id="306" name="mixnet-l/mixnet_model/blocks_7/split" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/depthwise_conv2d_11/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="205" name="3494934952_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/split_2:1" out_port_id="1"/>
+		<IR id="652" name="mixnet-l/mixnet_model/blocks_13/split_2" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/depthwise_conv2d_23/depthwise" out_port_id="0"/>
+		<IR id="417" name="mixnet-l/mixnet_model/blocks_9/depthwise_conv2d_23/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/conv2d_26/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="248" name="mixnet-l/mixnet_model/blocks_6/conv2d_26/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/se/conv2d_28/Conv2D" out_port_id="0"/>
+		<IR id="280" name="mixnet-l/mixnet_model/blocks_6/se/conv2d_28/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/conv2d_73/Conv2D" out_port_id="0"/>
+		<IR id="713" name="mixnet-l/mixnet_model/blocks_14/conv2d_73/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/depthwise_conv2d_54/depthwise" out_port_id="0"/>
+		<IR id="831" name="mixnet-l/mixnet_model/blocks_17/depthwise_conv2d_54/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/depthwise_conv2d_34/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="568" name="3499735000_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/batch_normalization_2/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="186" name="mixnet-l/mixnet_model/blocks_4/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/split" out_port_id="0"/>
+		<IR id="245" name="mixnet-l/mixnet_model/blocks_6/split" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/se/conv2d_50/Conv2D" out_port_id="0"/>
+		<IR id="497" name="mixnet-l/mixnet_model/blocks_10/se/conv2d_50/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/conv2d_75/Conv2D" out_port_id="0"/>
+		<IR id="723" name="mixnet-l/mixnet_model/blocks_15/conv2d_75/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/conv2d_1/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="23" name="mixnet-l/mixnet_model/blocks_1/conv2d_1/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/se/conv2d_27/Conv2D" out_port_id="0"/>
+		<IR id="274" name="mixnet-l/mixnet_model/blocks_6/se/conv2d_27/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/conv2d_73/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="712" name="mixnet-l/mixnet_model/blocks_14/conv2d_73/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/batch_normalization_1/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="46" name="mixnet-l/mixnet_model/blocks_1/batch_normalization_1/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/conv2d_52/Conv2D" out_port_id="0"/>
+		<IR id="508" name="mixnet-l/mixnet_model/blocks_10/conv2d_52/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/head/dropout/Identity" out_port_id="0"/>
+		<IR id="923" name="mixnet-l/mixnet_model/head/global_average_pooling2d/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/head/global_average_pooling2d/Mean" out_port_id="0"/>
+		<IR id="923" name="mixnet-l/mixnet_model/head/global_average_pooling2d/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/depthwise_conv2d_3/depthwise" out_port_id="0"/>
+		<IR id="41" name="mixnet-l/mixnet_model/blocks_1/depthwise_conv2d_3/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/split_1" out_port_id="0"/>
+		<IR id="679" name="mixnet-l/mixnet_model/blocks_14/split_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/se/conv2d_32/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="322" name="mixnet-l/mixnet_model/blocks_7/se/conv2d_32/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/se/conv2d_59/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="579" name="mixnet-l/mixnet_model/blocks_12/se/conv2d_59/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/swish_f32" out_port_id="0"/>
+		<IR id="727" name="mixnet-l/mixnet_model/blocks_15/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/concat_1" out_port_id="0"/>
+		<IR id="154" name="mixnet-l/mixnet_model/blocks_4/concat_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/conv2d_25/Conv2D" out_port_id="0"/>
+		<IR id="247" name="mixnet-l/mixnet_model/blocks_6/conv2d_25/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/se/conv2d_71/Conv2D" out_port_id="0"/>
+		<IR id="698" name="mixnet-l/mixnet_model/blocks_14/se/conv2d_71/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/se/swish_f32" out_port_id="0"/>
+		<IR id="122" name="mixnet-l/mixnet_model/blocks_3/se/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/conv2d_48/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="461" name="mixnet-l/mixnet_model/blocks_10/conv2d_48/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/swish_f32" out_port_id="0"/>
+		<IR id="617" name="mixnet-l/mixnet_model/blocks_13/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/split_1:1" out_port_id="1"/>
+		<IR id="413" name="mixnet-l/mixnet_model/blocks_9/split_1" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/conv2d_57/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="548" name="mixnet-l/mixnet_model/blocks_12/conv2d_57/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/se/mul" out_port_id="0"/>
+		<IR id="801" name="mixnet-l/mixnet_model/blocks_16/se/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/se/conv2d_28/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="279" name="mixnet-l/mixnet_model/blocks_6/se/conv2d_28/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/depthwise_conv2d_14/depthwise" out_port_id="0"/>
+		<IR id="263" name="mixnet-l/mixnet_model/blocks_6/depthwise_conv2d_14/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/swish_f32" out_port_id="0"/>
+		<IR id="558" name="mixnet-l/mixnet_model/blocks_12/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/se/mul" out_port_id="0"/>
+		<IR id="229" name="mixnet-l/mixnet_model/blocks_5/se/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/depthwise_conv2d_16/depthwise" out_port_id="0"/>
+		<IR id="310" name="mixnet-l/mixnet_model/blocks_7/depthwise_conv2d_16/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="IteratorGetNext" out_port_id="0"/>
+		<IR id="0" name="IteratorGetNext/placeholder_out_port_0" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/se/conv2d_90/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="892" name="mixnet-l/mixnet_model/blocks_18/se/conv2d_90/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/split_1" out_port_id="0"/>
+		<IR id="472" name="mixnet-l/mixnet_model/blocks_10/split_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/se/conv2d_15/Conv2D" out_port_id="0"/>
+		<IR id="164" name="mixnet-l/mixnet_model/blocks_4/se/conv2d_15/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/depthwise_conv2d_1/depthwise" out_port_id="0"/>
+		<IR id="37" name="mixnet-l/mixnet_model/blocks_1/depthwise_conv2d_1/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/depthwise_conv2d_33/depthwise" out_port_id="0"/>
+		<IR id="567" name="mixnet-l/mixnet_model/blocks_12/depthwise_conv2d_33/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/split:1" out_port_id="1"/>
+		<IR id="772" name="mixnet-l/mixnet_model/blocks_16/split" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/se/swish_f32" out_port_id="0"/>
+		<IR id="846" name="mixnet-l/mixnet_model/blocks_17/se/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/split_1:3" out_port_id="3"/>
+		<IR id="472" name="mixnet-l/mixnet_model/blocks_10/split_1" out_port_id="6"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/depthwise_conv2d_50/depthwise" out_port_id="0"/>
+		<IR id="780" name="mixnet-l/mixnet_model/blocks_16/depthwise_conv2d_50/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/se/conv2d_66/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="644" name="mixnet-l/mixnet_model/blocks_13/se/conv2d_66/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/se/conv2d_43/Conv2D" out_port_id="0"/>
+		<IR id="432" name="mixnet-l/mixnet_model/blocks_9/se/conv2d_43/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/se/conv2d_77/BiasAdd" out_port_id="0"/>
+		<IR id="757" name="mixnet-l/mixnet_model/blocks_15/se/conv2d_77/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/split_1" out_port_id="0"/>
+		<IR id="259" name="mixnet-l/mixnet_model/blocks_6/split_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/swish_f32" out_port_id="0"/>
+		<IR id="676" name="mixnet-l/mixnet_model/blocks_14/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/split:2" out_port_id="2"/>
+		<IR id="772" name="mixnet-l/mixnet_model/blocks_16/split" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/depthwise_conv2d_34/depthwise" out_port_id="0"/>
+		<IR id="569" name="mixnet-l/mixnet_model/blocks_12/depthwise_conv2d_34/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/conv2d_52/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="507" name="mixnet-l/mixnet_model/blocks_10/conv2d_52/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/split:1" out_port_id="1"/>
+		<IR id="399" name="mixnet-l/mixnet_model/blocks_9/split" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/conv2d_17/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="178" name="mixnet-l/mixnet_model/blocks_4/conv2d_17/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/se/swish_f32" out_port_id="0"/>
+		<IR id="168" name="mixnet-l/mixnet_model/blocks_4/se/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/Identity" out_port_id="0"/>
+		<IR id="337" name="mixnet-l/mixnet_model/blocks_7/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/batch_normalization_2/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="337" name="mixnet-l/mixnet_model/blocks_7/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/depthwise_conv2d_28/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="477" name="3492134924_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/concat_2" out_port_id="0"/>
+		<IR id="55" name="mixnet-l/mixnet_model/blocks_1/concat_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/split:1" out_port_id="1"/>
+		<IR id="665" name="mixnet-l/mixnet_model/blocks_14/split" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/se/conv2d_77/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="754" name="mixnet-l/mixnet_model/blocks_15/se/conv2d_77/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/split:1" out_port_id="1"/>
+		<IR id="22" name="mixnet-l/mixnet_model/blocks_1/split" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/depthwise_conv2d_17/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="311" name="3501335016_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/se/conv2d_16/BiasAdd" out_port_id="0"/>
+		<IR id="172" name="mixnet-l/mixnet_model/blocks_4/se/conv2d_16/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/swish_f32_1" out_port_id="0"/>
+		<IR id="215" name="mixnet-l/mixnet_model/blocks_5/swish_f32_1/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/batch_normalization_1/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="76" name="mixnet-l/mixnet_model/blocks_2/batch_normalization_1/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/concat_2" out_port_id="0"/>
+		<IR id="716" name="mixnet-l/mixnet_model/blocks_14/concat_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/conv2d_82/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="805" name="mixnet-l/mixnet_model/blocks_16/conv2d_82/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/conv2d_88/Conv2D" out_port_id="0"/>
+		<IR id="859" name="mixnet-l/mixnet_model/blocks_17/conv2d_88/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/head/dense/MatMul" out_port_id="0"/>
+		<IR id="925" name="mixnet-l/mixnet_model/head/dense/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/conv2d_93/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="909" name="mixnet-l/mixnet_model/blocks_18/conv2d_93/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/batch_normalization_2/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="89" name="mixnet-l/mixnet_model/blocks_2/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/depthwise_conv2d_27/depthwise" out_port_id="0"/>
+		<IR id="476" name="mixnet-l/mixnet_model/blocks_10/depthwise_conv2d_27/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/batch_normalization/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="71" name="mixnet-l/mixnet_model/blocks_2/batch_normalization/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/split_1:1" out_port_id="1"/>
+		<IR id="620" name="mixnet-l/mixnet_model/blocks_13/split_1" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/se/swish_f32" out_port_id="0"/>
+		<IR id="643" name="mixnet-l/mixnet_model/blocks_13/se/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/split:1" out_port_id="1"/>
+		<IR id="874" name="mixnet-l/mixnet_model/blocks_18/split" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/batch_normalization_2/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="813" name="mixnet-l/mixnet_model/blocks_16/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/split_1:1" out_port_id="1"/>
+		<IR id="149" name="mixnet-l/mixnet_model/blocks_4/split_1" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/head/conv2d_95/Conv2D" out_port_id="0"/>
+		<IR id="918" name="mixnet-l/mixnet_model/head/conv2d_95/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/se/Mean" out_port_id="0"/>
+		<IR id="891" name="mixnet-l/mixnet_model/blocks_18/se/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/conv2d_47/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="459" name="mixnet-l/mixnet_model/blocks_10/conv2d_47/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/split:1" out_port_id="1"/>
+		<IR id="730" name="mixnet-l/mixnet_model/blocks_15/split" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/depthwise_conv2d_24/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="418" name="3505735060_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/depthwise_conv2d_25/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="420" name="3511735120_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/concat" out_port_id="0"/>
+		<IR id="313" name="mixnet-l/mixnet_model/blocks_7/concat" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/conv2d_75/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="722" name="mixnet-l/mixnet_model/blocks_15/batch_normalization/FusedBatchNormV3/mean/Fused_Mul_1999319995_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/conv2d_23/Conv2D" out_port_id="0"/>
+		<IR id="234" name="mixnet-l/mixnet_model/blocks_5/conv2d_23/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/batch_normalization_2/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="661" name="mixnet-l/mixnet_model/blocks_13/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/se/conv2d_81/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="796" name="mixnet-l/mixnet_model/blocks_16/se/conv2d_81/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/concat_2" out_port_id="0"/>
+		<IR id="182" name="mixnet-l/mixnet_model/blocks_4/concat_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/depthwise_conv2d_50/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="779" name="3506135064_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_11/se/conv2d_54/Conv2D" out_port_id="0"/>
+		<IR id="530" name="mixnet-l/mixnet_model/blocks_11/se/conv2d_54/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/split_2:1" out_port_id="1"/>
+		<IR id="232" name="mixnet-l/mixnet_model/blocks_5/split_2" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/split_1:2" out_port_id="2"/>
+		<IR id="35" name="mixnet-l/mixnet_model/blocks_1/split_1" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/split_2:1" out_port_id="1"/>
+		<IR id="593" name="mixnet-l/mixnet_model/blocks_12/split_2" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/depthwise_conv2d_26/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="473" name="3500135004_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/depthwise_conv2d_33/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="566" name="3511335116_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/se/swish_f32" out_port_id="0"/>
+		<IR id="278" name="mixnet-l/mixnet_model/blocks_6/se/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/swish_f32" out_port_id="0"/>
+		<IR id="769" name="mixnet-l/mixnet_model/blocks_16/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/depthwise_conv2d_13/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="260" name="3512535128_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/stem/conv2d_94/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="5" name="IteratorGetNext/placeholder_out_port_0/reverse_input_channels/Concat33230_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/conv2d_4/Conv2D" out_port_id="0"/>
+		<IR id="54" name="mixnet-l/mixnet_model/blocks_1/conv2d_4/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/split_1" out_port_id="0"/>
+		<IR id="80" name="mixnet-l/mixnet_model/blocks_2/split_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/split:1" out_port_id="1"/>
+		<IR id="606" name="mixnet-l/mixnet_model/blocks_13/split" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/concat" out_port_id="0"/>
+		<IR id="195" name="mixnet-l/mixnet_model/blocks_5/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/se/conv2d_38/BiasAdd" out_port_id="0"/>
+		<IR id="381" name="mixnet-l/mixnet_model/blocks_8/se/conv2d_38/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_0/Identity" out_port_id="0"/>
+		<IR id="19" name="mixnet-l/mixnet_model/blocks_0/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_0/Add" out_port_id="0"/>
+		<IR id="19" name="mixnet-l/mixnet_model/blocks_0/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/se/conv2d_60/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="585" name="mixnet-l/mixnet_model/blocks_12/se/conv2d_60/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/conv2d_78/Conv2D" out_port_id="0"/>
+		<IR id="761" name="mixnet-l/mixnet_model/blocks_15/conv2d_78/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/se/Mean" out_port_id="0"/>
+		<IR id="371" name="mixnet-l/mixnet_model/blocks_8/se/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/conv2d_3/Conv2D" out_port_id="0"/>
+		<IR id="52" name="mixnet-l/mixnet_model/blocks_1/conv2d_3/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/conv2d_35/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="341" name="mixnet-l/mixnet_model/blocks_8/conv2d_35/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/depthwise_conv2d_19/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="357" name="3514935152_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/conv2d_18/Conv2D" out_port_id="0"/>
+		<IR id="181" name="mixnet-l/mixnet_model/blocks_4/conv2d_18/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/conv2d_24/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="235" name="mixnet-l/mixnet_model/blocks_5/conv2d_24/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/depthwise_conv2d_44/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="733" name="3492934932_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/concat_2" out_port_id="0"/>
+		<IR id="657" name="mixnet-l/mixnet_model/blocks_13/concat_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/depthwise_conv2d_58/depthwise" out_port_id="0"/>
+		<IR id="882" name="mixnet-l/mixnet_model/blocks_18/depthwise_conv2d_58/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/depthwise_conv2d_4/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="73" name="3514535148_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/swish_f32" out_port_id="0"/>
+		<IR id="96" name="mixnet-l/mixnet_model/blocks_3/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/depthwise_conv2d_43/depthwise" out_port_id="0"/>
+		<IR id="732" name="mixnet-l/mixnet_model/blocks_15/depthwise_conv2d_43/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/split_1:2" out_port_id="2"/>
+		<IR id="354" name="mixnet-l/mixnet_model/blocks_8/split_1" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/se/conv2d_86/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="847" name="mixnet-l/mixnet_model/blocks_17/se/conv2d_86/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_11/se/conv2d_55/Conv2D" out_port_id="0"/>
+		<IR id="536" name="mixnet-l/mixnet_model/blocks_11/se/conv2d_55/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/se/Sigmoid" out_port_id="0"/>
+		<IR id="589" name="mixnet-l/mixnet_model/blocks_12/se/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/batch_normalization_2/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="296" name="mixnet-l/mixnet_model/blocks_6/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/split" out_port_id="0"/>
+		<IR id="22" name="mixnet-l/mixnet_model/blocks_1/split" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/Identity" out_port_id="0"/>
+		<IR id="396" name="mixnet-l/mixnet_model/blocks_8/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/Add" out_port_id="0"/>
+		<IR id="396" name="mixnet-l/mixnet_model/blocks_8/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/depthwise_conv2d_54/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="830" name="3513735140_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/conv2d_8/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="83" name="mixnet-l/mixnet_model/blocks_2/conv2d_8/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/conv2d_83/Conv2D" out_port_id="0"/>
+		<IR id="808" name="mixnet-l/mixnet_model/blocks_16/conv2d_83/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/se/swish_f32" out_port_id="0"/>
+		<IR id="327" name="mixnet-l/mixnet_model/blocks_7/se/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/split" out_port_id="0"/>
+		<IR id="547" name="mixnet-l/mixnet_model/blocks_12/split" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/head/conv2d_95/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="917" name="mixnet-l/mixnet_model/head/batch_normalization/FusedBatchNormV3/mean/Fused_Mul_2001320015_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/conv2d_12/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="129" name="mixnet-l/mixnet_model/blocks_3/batch_normalization_2/FusedBatchNormV3/mean/Fused_Mul_1996919971_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/head/dense/MatMul/ReadVariableOp" out_port_id="0"/>
+		<IR id="924" name="mixnet-l/mixnet_model/head/dense/MatMul/1_port_transpose27761_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/depthwise_conv2d_14/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="262" name="3497334976_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/se/conv2d_72/BiasAdd" out_port_id="0"/>
+		<IR id="706" name="mixnet-l/mixnet_model/blocks_14/se/conv2d_72/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/Identity" out_port_id="0"/>
+		<IR id="187" name="mixnet-l/mixnet_model/blocks_4/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/Add" out_port_id="0"/>
+		<IR id="187" name="mixnet-l/mixnet_model/blocks_4/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/conv2d_2/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="25" name="mixnet-l/mixnet_model/blocks_1/conv2d_2/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/split:2" out_port_id="2"/>
+		<IR id="306" name="mixnet-l/mixnet_model/blocks_7/split" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/concat_2" out_port_id="0"/>
+		<IR id="292" name="mixnet-l/mixnet_model/blocks_6/concat_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/se/Mean" out_port_id="0"/>
+		<IR id="637" name="mixnet-l/mixnet_model/blocks_13/se/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/conv2d_26/Conv2D" out_port_id="0"/>
+		<IR id="249" name="mixnet-l/mixnet_model/blocks_6/conv2d_26/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/split_1" out_port_id="0"/>
+		<IR id="620" name="mixnet-l/mixnet_model/blocks_13/split_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/se/conv2d_66/BiasAdd" out_port_id="0"/>
+		<IR id="647" name="mixnet-l/mixnet_model/blocks_13/se/conv2d_66/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/se/conv2d_81/Conv2D" out_port_id="0"/>
+		<IR id="797" name="mixnet-l/mixnet_model/blocks_16/se/conv2d_81/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/split_1:2" out_port_id="2"/>
+		<IR id="472" name="mixnet-l/mixnet_model/blocks_10/split_1" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/split:3" out_port_id="3"/>
+		<IR id="874" name="mixnet-l/mixnet_model/blocks_18/split" out_port_id="6"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/split_1:2" out_port_id="2"/>
+		<IR id="413" name="mixnet-l/mixnet_model/blocks_9/split_1" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/split_1" out_port_id="0"/>
+		<IR id="855" name="mixnet-l/mixnet_model/blocks_17/split_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/depthwise_conv2d_23/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="416" name="3510535108_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/conv2d_6/Conv2D" out_port_id="0"/>
+		<IR id="66" name="mixnet-l/mixnet_model/blocks_2/conv2d_6/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/depthwise_conv2d_13/depthwise" out_port_id="0"/>
+		<IR id="261" name="mixnet-l/mixnet_model/blocks_6/depthwise_conv2d_13/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/split_1:3" out_port_id="3"/>
+		<IR id="354" name="mixnet-l/mixnet_model/blocks_8/split_1" out_port_id="6"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/depthwise_conv2d_22/depthwise" out_port_id="0"/>
+		<IR id="415" name="mixnet-l/mixnet_model/blocks_9/depthwise_conv2d_22/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/depthwise_conv2d_39/depthwise" out_port_id="0"/>
+		<IR id="681" name="mixnet-l/mixnet_model/blocks_14/depthwise_conv2d_39/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/conv2d_23/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="233" name="mixnet-l/mixnet_model/blocks_5/conv2d_23/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/se/Mean" out_port_id="0"/>
+		<IR id="747" name="mixnet-l/mixnet_model/blocks_15/se/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/concat" out_port_id="0"/>
+		<IR id="832" name="mixnet-l/mixnet_model/blocks_17/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/Relu" out_port_id="0"/>
+		<IR id="32" name="mixnet-l/mixnet_model/blocks_1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/swish_f32_1" out_port_id="0"/>
+		<IR id="787" name="mixnet-l/mixnet_model/blocks_16/swish_f32_1/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/depthwise_conv2d_5/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="100" name="3504135044_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/se/Mean" out_port_id="0"/>
+		<IR id="116" name="mixnet-l/mixnet_model/blocks_3/se/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/concat_1" out_port_id="0"/>
+		<IR id="481" name="mixnet-l/mixnet_model/blocks_10/concat_1" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/se/conv2d_44/BiasAdd" out_port_id="0"/>
+		<IR id="440" name="mixnet-l/mixnet_model/blocks_9/se/conv2d_44/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/split_1" out_port_id="0"/>
+		<IR id="561" name="mixnet-l/mixnet_model/blocks_12/split_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/se/swish_f32" out_port_id="0"/>
+		<IR id="377" name="mixnet-l/mixnet_model/blocks_8/se/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/depthwise_conv2d_6/depthwise" out_port_id="0"/>
+		<IR id="103" name="mixnet-l/mixnet_model/blocks_3/depthwise_conv2d_6/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/concat" out_port_id="0"/>
+		<IR id="611" name="mixnet-l/mixnet_model/blocks_13/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/conv2d_39/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="387" name="mixnet-l/mixnet_model/blocks_8/conv2d_39/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/depthwise_conv2d_55/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="875" name="3498134984_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/split_1:1" out_port_id="1"/>
+		<IR id="259" name="mixnet-l/mixnet_model/blocks_6/split_1" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/split_1" out_port_id="0"/>
+		<IR id="35" name="mixnet-l/mixnet_model/blocks_1/split_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/depthwise_conv2d_7/depthwise" out_port_id="0"/>
+		<IR id="105" name="mixnet-l/mixnet_model/blocks_3/depthwise_conv2d_7/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/depthwise_conv2d_42/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="686" name="3496534968_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/depthwise_conv2d_29/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="479" name="3510135104_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/conv2d_79/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="764" name="mixnet-l/mixnet_model/blocks_16/batch_normalization/FusedBatchNormV3/mean/Fused_Mul_2000120003_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/se/swish_f32" out_port_id="0"/>
+		<IR id="753" name="mixnet-l/mixnet_model/blocks_15/se/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/se/conv2d_65/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="638" name="mixnet-l/mixnet_model/blocks_13/se/conv2d_65/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/se/swish_f32" out_port_id="0"/>
+		<IR id="584" name="mixnet-l/mixnet_model/blocks_12/se/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/se/conv2d_86/BiasAdd" out_port_id="0"/>
+		<IR id="850" name="mixnet-l/mixnet_model/blocks_17/se/conv2d_86/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/depthwise_conv2d_37/depthwise" out_port_id="0"/>
+		<IR id="626" name="mixnet-l/mixnet_model/blocks_13/depthwise_conv2d_37/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_11/conv2d_56/Conv2D" out_port_id="0"/>
+		<IR id="542" name="mixnet-l/mixnet_model/blocks_11/conv2d_56/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/split_1:3" out_port_id="3"/>
+		<IR id="620" name="mixnet-l/mixnet_model/blocks_13/split_1" out_port_id="6"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/se/mul" out_port_id="0"/>
+		<IR id="903" name="mixnet-l/mixnet_model/blocks_18/se/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/conv2d_64/Conv2D" out_port_id="0"/>
+		<IR id="610" name="mixnet-l/mixnet_model/blocks_13/conv2d_64/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/concat" out_port_id="0"/>
+		<IR id="108" name="mixnet-l/mixnet_model/blocks_3/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/split_2" out_port_id="0"/>
+		<IR id="386" name="mixnet-l/mixnet_model/blocks_8/split_2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/swish_f32_1" out_port_id="0"/>
+		<IR id="745" name="mixnet-l/mixnet_model/blocks_15/swish_f32_1/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/se/conv2d_91/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="898" name="mixnet-l/mixnet_model/blocks_18/se/conv2d_91/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/se/conv2d_60/BiasAdd" out_port_id="0"/>
+		<IR id="588" name="mixnet-l/mixnet_model/blocks_12/se/conv2d_60/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/depthwise_conv2d_36/depthwise" out_port_id="0"/>
+		<IR id="624" name="mixnet-l/mixnet_model/blocks_13/depthwise_conv2d_36/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/depthwise_conv2d_24/depthwise" out_port_id="0"/>
+		<IR id="419" name="mixnet-l/mixnet_model/blocks_9/depthwise_conv2d_24/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/depthwise_conv2d_28/depthwise" out_port_id="0"/>
+		<IR id="478" name="mixnet-l/mixnet_model/blocks_10/depthwise_conv2d_28/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/batch_normalization/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="31" name="mixnet-l/mixnet_model/blocks_1/batch_normalization/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/conv2d_25/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="246" name="mixnet-l/mixnet_model/blocks_6/conv2d_25/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/concat_1" out_port_id="0"/>
+		<IR id="209" name="mixnet-l/mixnet_model/blocks_5/concat_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/split_2:1" out_port_id="1"/>
+		<IR id="504" name="mixnet-l/mixnet_model/blocks_10/split_2" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/split" out_port_id="0"/>
+		<IR id="730" name="mixnet-l/mixnet_model/blocks_15/split" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/split:3" out_port_id="3"/>
+		<IR id="823" name="mixnet-l/mixnet_model/blocks_17/split" out_port_id="6"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/split_1:2" out_port_id="2"/>
+		<IR id="561" name="mixnet-l/mixnet_model/blocks_12/split_1" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_11/se/conv2d_54/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="529" name="mixnet-l/mixnet_model/blocks_11/se/conv2d_54/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/se/Sigmoid" out_port_id="0"/>
+		<IR id="127" name="mixnet-l/mixnet_model/blocks_3/se/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/depthwise_conv2d_20/depthwise" out_port_id="0"/>
+		<IR id="360" name="mixnet-l/mixnet_model/blocks_8/depthwise_conv2d_20/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/depthwise_conv2d_27/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="475" name="3500935012_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/conv2d_24/Conv2D" out_port_id="0"/>
+		<IR id="236" name="mixnet-l/mixnet_model/blocks_5/conv2d_24/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/split" out_port_id="0"/>
+		<IR id="99" name="mixnet-l/mixnet_model/blocks_3/split" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/se/conv2d_85/Conv2D" out_port_id="0"/>
+		<IR id="842" name="mixnet-l/mixnet_model/blocks_17/se/conv2d_85/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/se/conv2d_90/Conv2D" out_port_id="0"/>
+		<IR id="893" name="mixnet-l/mixnet_model/blocks_18/se/conv2d_90/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/depthwise_conv2d_16/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="309" name="3498934992_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/split_1" out_port_id="0"/>
+		<IR id="413" name="mixnet-l/mixnet_model/blocks_9/split_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/conv2d_34/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="334" name="mixnet-l/mixnet_model/blocks_7/batch_normalization_2/FusedBatchNormV3/mean/Fused_Mul_1997719979_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_11/se/swish_f32" out_port_id="0"/>
+		<IR id="534" name="mixnet-l/mixnet_model/blocks_11/se/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/conv2d_89/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="866" name="mixnet-l/mixnet_model/blocks_18/batch_normalization/FusedBatchNormV3/mean/Fused_Mul_2000920011_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/conv2d_7/Conv2D" out_port_id="0"/>
+		<IR id="82" name="mixnet-l/mixnet_model/blocks_2/conv2d_7/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/split" out_port_id="0"/>
+		<IR id="823" name="mixnet-l/mixnet_model/blocks_17/split" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/stem/batch_normalization/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="8" name="mixnet-l/mixnet_model/stem/batch_normalization/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/se/conv2d_28/BiasAdd" out_port_id="0"/>
+		<IR id="282" name="mixnet-l/mixnet_model/blocks_6/se/conv2d_28/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/swish_f32_1" out_port_id="0"/>
+		<IR id="114" name="mixnet-l/mixnet_model/blocks_3/swish_f32_1/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/conv2d_63/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="607" name="mixnet-l/mixnet_model/blocks_13/conv2d_63/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_11/conv2d_53/Conv2D" out_port_id="0"/>
+		<IR id="516" name="mixnet-l/mixnet_model/blocks_11/conv2d_53/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/se/conv2d_33/BiasAdd" out_port_id="0"/>
+		<IR id="331" name="mixnet-l/mixnet_model/blocks_7/se/conv2d_33/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/batch_normalization_2/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="454" name="mixnet-l/mixnet_model/blocks_9/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/depthwise_conv2d_2/depthwise" out_port_id="0"/>
+		<IR id="39" name="mixnet-l/mixnet_model/blocks_1/depthwise_conv2d_2/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/depthwise_conv2d_12/depthwise" out_port_id="0"/>
+		<IR id="208" name="mixnet-l/mixnet_model/blocks_5/depthwise_conv2d_12/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/concat" out_port_id="0"/>
+		<IR id="345" name="mixnet-l/mixnet_model/blocks_8/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/conv2d_8/Conv2D" out_port_id="0"/>
+		<IR id="84" name="mixnet-l/mixnet_model/blocks_2/conv2d_8/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/depthwise_conv2d_17/depthwise" out_port_id="0"/>
+		<IR id="312" name="mixnet-l/mixnet_model/blocks_7/depthwise_conv2d_17/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/conv2d_14/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="138" name="mixnet-l/mixnet_model/blocks_4/conv2d_14/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/split:2" out_port_id="2"/>
+		<IR id="99" name="mixnet-l/mixnet_model/blocks_3/split" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/split_1:2" out_port_id="2"/>
+		<IR id="679" name="mixnet-l/mixnet_model/blocks_14/split_1" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/concat_2" out_port_id="0"/>
+		<IR id="237" name="mixnet-l/mixnet_model/blocks_5/concat_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/conv2d_9/Conv2D" out_port_id="0"/>
+		<IR id="92" name="mixnet-l/mixnet_model/blocks_3/conv2d_9/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/depthwise_conv2d_52/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="826" name="3510935112_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/conv2d_64/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="609" name="mixnet-l/mixnet_model/blocks_13/conv2d_64/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/se/conv2d_76/Conv2D" out_port_id="0"/>
+		<IR id="749" name="mixnet-l/mixnet_model/blocks_15/se/conv2d_76/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/se/swish_f32" out_port_id="0"/>
+		<IR id="897" name="mixnet-l/mixnet_model/blocks_18/se/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/split_2" out_port_id="0"/>
+		<IR id="287" name="mixnet-l/mixnet_model/blocks_6/split_2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_11/se/conv2d_55/BiasAdd" out_port_id="0"/>
+		<IR id="538" name="mixnet-l/mixnet_model/blocks_11/se/conv2d_55/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/split:1" out_port_id="1"/>
+		<IR id="245" name="mixnet-l/mixnet_model/blocks_6/split" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/batch_normalization_2/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="241" name="mixnet-l/mixnet_model/blocks_5/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/depthwise_conv2d_55/depthwise" out_port_id="0"/>
+		<IR id="876" name="mixnet-l/mixnet_model/blocks_18/depthwise_conv2d_55/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/se/Mean" out_port_id="0"/>
+		<IR id="789" name="mixnet-l/mixnet_model/blocks_16/se/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/concat" out_port_id="0"/>
+		<IR id="463" name="mixnet-l/mixnet_model/blocks_10/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_0/depthwise_conv2d/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="10" name="3496134964_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/concat_1" out_port_id="0"/>
+		<IR id="860" name="mixnet-l/mixnet_model/blocks_17/concat_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/depthwise_conv2d_10/depthwise" out_port_id="0"/>
+		<IR id="153" name="mixnet-l/mixnet_model/blocks_4/depthwise_conv2d_10/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/depthwise_conv2d_53/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="828" name="3508135084_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/split" out_port_id="0"/>
+		<IR id="772" name="mixnet-l/mixnet_model/blocks_16/split" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/se/conv2d_85/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="841" name="mixnet-l/mixnet_model/blocks_17/se/conv2d_85/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/se/swish_f32" out_port_id="0"/>
+		<IR id="436" name="mixnet-l/mixnet_model/blocks_9/se/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/se/swish_f32" out_port_id="0"/>
+		<IR id="795" name="mixnet-l/mixnet_model/blocks_16/se/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/conv2d_29/Conv2D" out_port_id="0"/>
+		<IR id="289" name="mixnet-l/mixnet_model/blocks_6/conv2d_29/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/depthwise_conv2d_4/depthwise" out_port_id="0"/>
+		<IR id="74" name="mixnet-l/mixnet_model/blocks_2/depthwise_conv2d_4/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/concat" out_port_id="0"/>
+		<IR id="404" name="mixnet-l/mixnet_model/blocks_9/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/depthwise_conv2d_40/depthwise" out_port_id="0"/>
+		<IR id="683" name="mixnet-l/mixnet_model/blocks_14/depthwise_conv2d_40/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/depthwise_conv2d_2/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="38" name="3509735100_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/split_1:1" out_port_id="1"/>
+		<IR id="804" name="mixnet-l/mixnet_model/blocks_16/split_1" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/se/Mean" out_port_id="0"/>
+		<IR id="217" name="mixnet-l/mixnet_model/blocks_5/se/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/se/mul" out_port_id="0"/>
+		<IR id="333" name="mixnet-l/mixnet_model/blocks_7/se/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/conv2d_58/Conv2D" out_port_id="0"/>
+		<IR id="551" name="mixnet-l/mixnet_model/blocks_12/conv2d_58/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/se/Mean" out_port_id="0"/>
+		<IR id="840" name="mixnet-l/mixnet_model/blocks_17/se/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/swish_f32" out_port_id="0"/>
+		<IR id="469" name="mixnet-l/mixnet_model/blocks_10/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/split_2:1" out_port_id="1"/>
+		<IR id="177" name="mixnet-l/mixnet_model/blocks_4/split_2" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/conv2d_14/Conv2D" out_port_id="0"/>
+		<IR id="139" name="mixnet-l/mixnet_model/blocks_4/conv2d_14/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/split_1:1" out_port_id="1"/>
+		<IR id="204" name="mixnet-l/mixnet_model/blocks_5/split_1" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/concat_2" out_port_id="0"/>
+		<IR id="450" name="mixnet-l/mixnet_model/blocks_9/concat_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/depthwise_conv2d_31/depthwise" out_port_id="0"/>
+		<IR id="563" name="mixnet-l/mixnet_model/blocks_12/depthwise_conv2d_31/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/swish_f32" out_port_id="0"/>
+		<IR id="256" name="mixnet-l/mixnet_model/blocks_6/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/split_2:1" out_port_id="1"/>
+		<IR id="287" name="mixnet-l/mixnet_model/blocks_6/split_2" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/depthwise_conv2d_35/depthwise" out_port_id="0"/>
+		<IR id="622" name="mixnet-l/mixnet_model/blocks_13/depthwise_conv2d_35/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/conv2d_7/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="81" name="mixnet-l/mixnet_model/blocks_2/conv2d_7/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/se/Mean" out_port_id="0"/>
+		<IR id="696" name="mixnet-l/mixnet_model/blocks_14/se/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/conv2d_74/Conv2D" out_port_id="0"/>
+		<IR id="715" name="mixnet-l/mixnet_model/blocks_14/conv2d_74/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/depthwise_conv2d_8/depthwise" out_port_id="0"/>
+		<IR id="107" name="mixnet-l/mixnet_model/blocks_3/depthwise_conv2d_8/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/swish_f32" out_port_id="0"/>
+		<IR id="303" name="mixnet-l/mixnet_model/blocks_7/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_11/conv2d_56/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="541" name="mixnet-l/mixnet_model/blocks_11/batch_normalization_2/FusedBatchNormV3/mean/Fused_Mul_1998919991_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/depthwise_conv2d_11/depthwise" out_port_id="0"/>
+		<IR id="206" name="mixnet-l/mixnet_model/blocks_5/depthwise_conv2d_11/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/se/conv2d_33/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="328" name="mixnet-l/mixnet_model/blocks_7/se/conv2d_33/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/swish_f32" out_port_id="0"/>
+		<IR id="146" name="mixnet-l/mixnet_model/blocks_4/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/swish_f32" out_port_id="0"/>
+		<IR id="201" name="mixnet-l/mixnet_model/blocks_5/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/se/conv2d_21/Conv2D" out_port_id="0"/>
+		<IR id="219" name="mixnet-l/mixnet_model/blocks_5/se/conv2d_21/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/se/Sigmoid" out_port_id="0"/>
+		<IR id="500" name="mixnet-l/mixnet_model/blocks_10/se/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/split_2" out_port_id="0"/>
+		<IR id="593" name="mixnet-l/mixnet_model/blocks_12/split_2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/depthwise_conv2d_39/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="680" name="3501735020_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/se/mul" out_port_id="0"/>
+		<IR id="590" name="mixnet-l/mixnet_model/blocks_12/se/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_0/conv2d/Conv2D" out_port_id="0"/>
+		<IR id="16" name="mixnet-l/mixnet_model/blocks_0/conv2d/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/concat" out_port_id="0"/>
+		<IR id="67" name="mixnet-l/mixnet_model/blocks_2/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/split" out_port_id="0"/>
+		<IR id="135" name="mixnet-l/mixnet_model/blocks_4/split" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/swish_f32_1" out_port_id="0"/>
+		<IR id="270" name="mixnet-l/mixnet_model/blocks_6/swish_f32_1/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/batch_normalization_2/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="720" name="mixnet-l/mixnet_model/blocks_14/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/split_2" out_port_id="0"/>
+		<IR id="652" name="mixnet-l/mixnet_model/blocks_13/split_2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/conv2d_78/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="760" name="mixnet-l/mixnet_model/blocks_15/batch_normalization_2/FusedBatchNormV3/mean/Fused_Mul_1999719999_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/conv2d_87/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="856" name="mixnet-l/mixnet_model/blocks_17/conv2d_87/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/se/Mean" out_port_id="0"/>
+		<IR id="489" name="mixnet-l/mixnet_model/blocks_10/se/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/split" out_port_id="0"/>
+		<IR id="606" name="mixnet-l/mixnet_model/blocks_13/split" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_0/conv2d/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="15" name="mixnet-l/mixnet_model/blocks_0/batch_normalization_1/FusedBatchNormV3/mean/Fused_Mul_1995719959_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/split_2:1" out_port_id="1"/>
+		<IR id="445" name="mixnet-l/mixnet_model/blocks_9/split_2" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/se/conv2d_91/BiasAdd" out_port_id="0"/>
+		<IR id="901" name="mixnet-l/mixnet_model/blocks_18/se/conv2d_91/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/depthwise_conv2d_15/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="307" name="3504535048_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/swish_f32_1" out_port_id="0"/>
+		<IR id="889" name="mixnet-l/mixnet_model/blocks_18/swish_f32_1/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/se/swish_f32" out_port_id="0"/>
+		<IR id="495" name="mixnet-l/mixnet_model/blocks_10/se/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/batch_normalization_2/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="915" name="mixnet-l/mixnet_model/blocks_18/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/conv2d_74/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="714" name="mixnet-l/mixnet_model/blocks_14/conv2d_74/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/split_1:3" out_port_id="3"/>
+		<IR id="679" name="mixnet-l/mixnet_model/blocks_14/split_1" out_port_id="6"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/se/conv2d_43/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="431" name="mixnet-l/mixnet_model/blocks_9/se/conv2d_43/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/se/conv2d_50/BiasAdd" out_port_id="0"/>
+		<IR id="499" name="mixnet-l/mixnet_model/blocks_10/se/conv2d_50/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/se/conv2d_32/Conv2D" out_port_id="0"/>
+		<IR id="323" name="mixnet-l/mixnet_model/blocks_7/se/conv2d_32/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/depthwise_conv2d_18/depthwise" out_port_id="0"/>
+		<IR id="356" name="mixnet-l/mixnet_model/blocks_8/depthwise_conv2d_18/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/conv2d_46/Conv2D" out_port_id="0"/>
+		<IR id="449" name="mixnet-l/mixnet_model/blocks_9/conv2d_46/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/split_2" out_port_id="0"/>
+		<IR id="232" name="mixnet-l/mixnet_model/blocks_5/split_2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/Identity" out_port_id="0"/>
+		<IR id="455" name="mixnet-l/mixnet_model/blocks_9/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/Add" out_port_id="0"/>
+		<IR id="455" name="mixnet-l/mixnet_model/blocks_9/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/conv2d_82/Conv2D" out_port_id="0"/>
+		<IR id="806" name="mixnet-l/mixnet_model/blocks_16/conv2d_82/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/conv2d_13/Conv2D" out_port_id="0"/>
+		<IR id="137" name="mixnet-l/mixnet_model/blocks_4/conv2d_13/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/conv2d_93/Conv2D" out_port_id="0"/>
+		<IR id="910" name="mixnet-l/mixnet_model/blocks_18/conv2d_93/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/Identity" out_port_id="0"/>
+		<IR id="59" name="mixnet-l/mixnet_model/blocks_1/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/batch_normalization_2/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="59" name="mixnet-l/mixnet_model/blocks_1/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/concat" out_port_id="0"/>
+		<IR id="552" name="mixnet-l/mixnet_model/blocks_12/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/conv2d_20/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="193" name="mixnet-l/mixnet_model/blocks_5/conv2d_20/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/se/Sigmoid" out_port_id="0"/>
+		<IR id="228" name="mixnet-l/mixnet_model/blocks_5/se/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/conv2d_62/Conv2D" out_port_id="0"/>
+		<IR id="597" name="mixnet-l/mixnet_model/blocks_12/conv2d_62/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/depthwise_conv2d_45/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="735" name="3507335076_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/depthwise_conv2d_31/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="562" name="3513335136_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/conv2d_13/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="136" name="mixnet-l/mixnet_model/blocks_4/conv2d_13/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/se/conv2d_38/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="378" name="mixnet-l/mixnet_model/blocks_8/se/conv2d_38/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/depthwise_conv2d_7/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="104" name="3503735040_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/conv2d_68/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="655" name="mixnet-l/mixnet_model/blocks_13/conv2d_68/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/conv2d_20/Conv2D" out_port_id="0"/>
+		<IR id="194" name="mixnet-l/mixnet_model/blocks_5/conv2d_20/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/conv2d_67/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="653" name="mixnet-l/mixnet_model/blocks_13/conv2d_67/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/conv2d_9/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="91" name="mixnet-l/mixnet_model/blocks_3/batch_normalization/FusedBatchNormV3/mean/Fused_Mul_1996519967_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/conv2d_31/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="298" name="mixnet-l/mixnet_model/blocks_7/batch_normalization/FusedBatchNormV3/mean/Fused_Mul_1997319975_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/Identity" out_port_id="0"/>
+		<IR id="297" name="mixnet-l/mixnet_model/blocks_6/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/Add" out_port_id="0"/>
+		<IR id="297" name="mixnet-l/mixnet_model/blocks_6/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/conv2d_51/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="505" name="mixnet-l/mixnet_model/blocks_10/conv2d_51/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/depthwise_conv2d_38/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="627" name="3506535068_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/conv2d_2/Conv2D" out_port_id="0"/>
+		<IR id="26" name="mixnet-l/mixnet_model/blocks_1/conv2d_2/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/conv2d_67/Conv2D" out_port_id="0"/>
+		<IR id="654" name="mixnet-l/mixnet_model/blocks_13/conv2d_67/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/swish_f32_1" out_port_id="0"/>
+		<IR id="160" name="mixnet-l/mixnet_model/blocks_4/swish_f32_1/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/se/Mean" out_port_id="0"/>
+		<IR id="321" name="mixnet-l/mixnet_model/blocks_7/se/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/conv2d_40/Conv2D" out_port_id="0"/>
+		<IR id="390" name="mixnet-l/mixnet_model/blocks_8/conv2d_40/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/se/conv2d_72/Conv2D" out_port_id="0"/>
+		<IR id="704" name="mixnet-l/mixnet_model/blocks_14/se/conv2d_72/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/concat_2" out_port_id="0"/>
+		<IR id="598" name="mixnet-l/mixnet_model/blocks_12/concat_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/conv2d_6/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="65" name="mixnet-l/mixnet_model/blocks_2/conv2d_6/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/conv2d_17/Conv2D" out_port_id="0"/>
+		<IR id="179" name="mixnet-l/mixnet_model/blocks_4/conv2d_17/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/conv2d_70/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="668" name="mixnet-l/mixnet_model/blocks_14/conv2d_70/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/concat" out_port_id="0"/>
+		<IR id="140" name="mixnet-l/mixnet_model/blocks_4/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/batch_normalization_2/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="864" name="mixnet-l/mixnet_model/blocks_17/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/conv2d_40/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="389" name="mixnet-l/mixnet_model/blocks_8/conv2d_40/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/split:1" out_port_id="1"/>
+		<IR id="823" name="mixnet-l/mixnet_model/blocks_17/split" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/se/conv2d_86/Conv2D" out_port_id="0"/>
+		<IR id="848" name="mixnet-l/mixnet_model/blocks_17/se/conv2d_86/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/se/mul" out_port_id="0"/>
+		<IR id="501" name="mixnet-l/mixnet_model/blocks_10/se/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/depthwise_conv2d_58/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="881" name="3502135024_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/se/conv2d_16/Conv2D" out_port_id="0"/>
+		<IR id="170" name="mixnet-l/mixnet_model/blocks_4/se/conv2d_16/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/conv2d_58/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="550" name="mixnet-l/mixnet_model/blocks_12/conv2d_58/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/split" out_port_id="0"/>
+		<IR id="458" name="mixnet-l/mixnet_model/blocks_10/split" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/se/Sigmoid" out_port_id="0"/>
+		<IR id="382" name="mixnet-l/mixnet_model/blocks_8/se/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/conv2d_35/Conv2D" out_port_id="0"/>
+		<IR id="342" name="mixnet-l/mixnet_model/blocks_8/conv2d_35/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/concat" out_port_id="0"/>
+		<IR id="670" name="mixnet-l/mixnet_model/blocks_14/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/depthwise_conv2d_1/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="36" name="3493334936_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/depthwise_conv2d_48/depthwise" out_port_id="0"/>
+		<IR id="776" name="mixnet-l/mixnet_model/blocks_16/depthwise_conv2d_48/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/se/Mean" out_port_id="0"/>
+		<IR id="430" name="mixnet-l/mixnet_model/blocks_9/se/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/conv2d_46/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="448" name="mixnet-l/mixnet_model/blocks_9/conv2d_46/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/se/conv2d_77/Conv2D" out_port_id="0"/>
+		<IR id="755" name="mixnet-l/mixnet_model/blocks_15/se/conv2d_77/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/depthwise_conv2d_48/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="775" name="3515335156_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/se/conv2d_60/Conv2D" out_port_id="0"/>
+		<IR id="586" name="mixnet-l/mixnet_model/blocks_12/se/conv2d_60/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/split_1" out_port_id="0"/>
+		<IR id="804" name="mixnet-l/mixnet_model/blocks_16/split_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/conv2d_69/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="666" name="mixnet-l/mixnet_model/blocks_14/conv2d_69/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/swish_f32" out_port_id="0"/>
+		<IR id="820" name="mixnet-l/mixnet_model/blocks_17/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/split" out_port_id="0"/>
+		<IR id="399" name="mixnet-l/mixnet_model/blocks_9/split" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/conv2d_34/Conv2D" out_port_id="0"/>
+		<IR id="335" name="mixnet-l/mixnet_model/blocks_7/conv2d_34/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/split_2:1" out_port_id="1"/>
+		<IR id="386" name="mixnet-l/mixnet_model/blocks_8/split_2" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/split:3" out_port_id="3"/>
+		<IR id="730" name="mixnet-l/mixnet_model/blocks_15/split" out_port_id="6"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/se/conv2d_66/Conv2D" out_port_id="0"/>
+		<IR id="645" name="mixnet-l/mixnet_model/blocks_13/se/conv2d_66/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/se/conv2d_50/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="496" name="mixnet-l/mixnet_model/blocks_10/se/conv2d_50/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/depthwise_conv2d_47/depthwise" out_port_id="0"/>
+		<IR id="774" name="mixnet-l/mixnet_model/blocks_16/depthwise_conv2d_47/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/conv2d_3/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="51" name="mixnet-l/mixnet_model/blocks_1/conv2d_3/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/depthwise_conv2d_32/depthwise" out_port_id="0"/>
+		<IR id="565" name="mixnet-l/mixnet_model/blocks_12/depthwise_conv2d_32/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/Identity" out_port_id="0"/>
+		<IR id="242" name="mixnet-l/mixnet_model/blocks_5/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/Add" out_port_id="0"/>
+		<IR id="242" name="mixnet-l/mixnet_model/blocks_5/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/se/Mean" out_port_id="0"/>
+		<IR id="272" name="mixnet-l/mixnet_model/blocks_6/se/Mean" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/stem/Relu" out_port_id="0"/>
+		<IR id="9" name="mixnet-l/mixnet_model/stem/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/Identity" out_port_id="0"/>
+		<IR id="865" name="mixnet-l/mixnet_model/blocks_17/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/Add" out_port_id="0"/>
+		<IR id="865" name="mixnet-l/mixnet_model/blocks_17/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/conv2d_45/Conv2D" out_port_id="0"/>
+		<IR id="447" name="mixnet-l/mixnet_model/blocks_9/conv2d_45/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/batch_normalization_2/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="395" name="mixnet-l/mixnet_model/blocks_8/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/se/Sigmoid" out_port_id="0"/>
+		<IR id="707" name="mixnet-l/mixnet_model/blocks_14/se/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/concat_1" out_port_id="0"/>
+		<IR id="911" name="mixnet-l/mixnet_model/blocks_18/concat_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/conv2d_39/Conv2D" out_port_id="0"/>
+		<IR id="388" name="mixnet-l/mixnet_model/blocks_8/conv2d_39/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/depthwise_conv2d_5/depthwise" out_port_id="0"/>
+		<IR id="101" name="mixnet-l/mixnet_model/blocks_3/depthwise_conv2d_5/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/concat" out_port_id="0"/>
+		<IR id="883" name="mixnet-l/mixnet_model/blocks_18/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/conv2d_47/Conv2D" out_port_id="0"/>
+		<IR id="460" name="mixnet-l/mixnet_model/blocks_10/conv2d_47/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/se/Sigmoid" out_port_id="0"/>
+		<IR id="173" name="mixnet-l/mixnet_model/blocks_4/se/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/Relu_1" out_port_id="0"/>
+		<IR id="47" name="mixnet-l/mixnet_model/blocks_1/Relu_1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/conv2d_41/Conv2D" out_port_id="0"/>
+		<IR id="401" name="mixnet-l/mixnet_model/blocks_9/conv2d_41/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/depthwise_conv2d_45/depthwise" out_port_id="0"/>
+		<IR id="736" name="mixnet-l/mixnet_model/blocks_15/depthwise_conv2d_45/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/conv2d_30/Conv2D" out_port_id="0"/>
+		<IR id="291" name="mixnet-l/mixnet_model/blocks_6/conv2d_30/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/split" out_port_id="0"/>
+		<IR id="190" name="mixnet-l/mixnet_model/blocks_5/split" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/swish_f32" out_port_id="0"/>
+		<IR id="351" name="mixnet-l/mixnet_model/blocks_8/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/conv2d_51/Conv2D" out_port_id="0"/>
+		<IR id="506" name="mixnet-l/mixnet_model/blocks_10/conv2d_51/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/se/conv2d_65/Conv2D" out_port_id="0"/>
+		<IR id="639" name="mixnet-l/mixnet_model/blocks_13/se/conv2d_65/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/conv2d_36/Conv2D" out_port_id="0"/>
+		<IR id="344" name="mixnet-l/mixnet_model/blocks_8/conv2d_36/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/concat" out_port_id="0"/>
+		<IR id="739" name="mixnet-l/mixnet_model/blocks_15/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/depthwise_conv2d_9/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="150" name="3509335096_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/concat_1" out_port_id="0"/>
+		<IR id="422" name="mixnet-l/mixnet_model/blocks_9/concat_1" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/depthwise_conv2d_56/depthwise" out_port_id="0"/>
+		<IR id="878" name="mixnet-l/mixnet_model/blocks_18/depthwise_conv2d_56/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/depthwise_conv2d_6/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="102" name="3502535028_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/conv2d_88/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="858" name="mixnet-l/mixnet_model/blocks_17/conv2d_88/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/swish_f32_1" out_port_id="0"/>
+		<IR id="487" name="mixnet-l/mixnet_model/blocks_10/swish_f32_1/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/se/conv2d_33/Conv2D" out_port_id="0"/>
+		<IR id="329" name="mixnet-l/mixnet_model/blocks_7/se/conv2d_33/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/split_1:3" out_port_id="3"/>
+		<IR id="561" name="mixnet-l/mixnet_model/blocks_12/split_1" out_port_id="6"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/conv2d_5/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="63" name="mixnet-l/mixnet_model/blocks_2/conv2d_5/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/conv2d_48/Conv2D" out_port_id="0"/>
+		<IR id="462" name="mixnet-l/mixnet_model/blocks_10/conv2d_48/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/se/conv2d_37/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="372" name="mixnet-l/mixnet_model/blocks_8/se/conv2d_37/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/depthwise_conv2d_15/depthwise" out_port_id="0"/>
+		<IR id="308" name="mixnet-l/mixnet_model/blocks_7/depthwise_conv2d_15/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_11/se/conv2d_55/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="535" name="mixnet-l/mixnet_model/blocks_11/se/conv2d_55/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/depthwise_conv2d_10/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="152" name="3495334956_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/Relu" out_port_id="0"/>
+		<IR id="72" name="mixnet-l/mixnet_model/blocks_2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/conv2d_41/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="400" name="mixnet-l/mixnet_model/blocks_9/conv2d_41/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/se/Sigmoid" out_port_id="0"/>
+		<IR id="902" name="mixnet-l/mixnet_model/blocks_18/se/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/split_1:3" out_port_id="3"/>
+		<IR id="413" name="mixnet-l/mixnet_model/blocks_9/split_1" out_port_id="6"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/depthwise_conv2d_26/depthwise" out_port_id="0"/>
+		<IR id="474" name="mixnet-l/mixnet_model/blocks_10/depthwise_conv2d_26/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/stem/conv2d_94/Conv2D" out_port_id="0"/>
+		<IR id="6" name="mixnet-l/mixnet_model/stem/conv2d_94/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/split_1:1" out_port_id="1"/>
+		<IR id="906" name="mixnet-l/mixnet_model/blocks_18/split_1" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/conv2d_18/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="180" name="mixnet-l/mixnet_model/blocks_4/conv2d_18/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/split_2" out_port_id="0"/>
+		<IR id="711" name="mixnet-l/mixnet_model/blocks_14/split_2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/conv2d_79/Conv2D" out_port_id="0"/>
+		<IR id="765" name="mixnet-l/mixnet_model/blocks_16/conv2d_79/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/split" out_port_id="0"/>
+		<IR id="874" name="mixnet-l/mixnet_model/blocks_18/split" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/se/Sigmoid" out_port_id="0"/>
+		<IR id="283" name="mixnet-l/mixnet_model/blocks_6/se/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/split_1:2" out_port_id="2"/>
+		<IR id="620" name="mixnet-l/mixnet_model/blocks_13/split_1" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/split_1:1" out_port_id="1"/>
+		<IR id="679" name="mixnet-l/mixnet_model/blocks_14/split_1" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/swish_f32_1" out_port_id="0"/>
+		<IR id="576" name="mixnet-l/mixnet_model/blocks_12/swish_f32_1/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/split:1" out_port_id="1"/>
+		<IR id="340" name="mixnet-l/mixnet_model/blocks_8/split" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/depthwise_conv2d_41/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="684" name="3507735080_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/se/conv2d_22/BiasAdd" out_port_id="0"/>
+		<IR id="227" name="mixnet-l/mixnet_model/blocks_5/se/conv2d_22/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/conv2d_92/Conv2D" out_port_id="0"/>
+		<IR id="908" name="mixnet-l/mixnet_model/blocks_18/conv2d_92/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/se/mul" out_port_id="0"/>
+		<IR id="383" name="mixnet-l/mixnet_model/blocks_8/se/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/swish_f32_1" out_port_id="0"/>
+		<IR id="428" name="mixnet-l/mixnet_model/blocks_9/swish_f32_1/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/depthwise_conv2d_53/depthwise" out_port_id="0"/>
+		<IR id="829" name="mixnet-l/mixnet_model/blocks_17/depthwise_conv2d_53/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/split_1" out_port_id="0"/>
+		<IR id="204" name="mixnet-l/mixnet_model/blocks_5/split_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/se/conv2d_80/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="790" name="mixnet-l/mixnet_model/blocks_16/se/conv2d_80/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/swish_f32_1" out_port_id="0"/>
+		<IR id="694" name="mixnet-l/mixnet_model/blocks_14/swish_f32_1/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/se/conv2d_21/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="218" name="mixnet-l/mixnet_model/blocks_5/se/conv2d_21/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/conv2d_62/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="596" name="mixnet-l/mixnet_model/blocks_12/conv2d_62/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/depthwise_conv2d_51/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="824" name="3497734980_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_11/Identity" out_port_id="0"/>
+		<IR id="544" name="mixnet-l/mixnet_model/blocks_11/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_11/batch_normalization_2/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="544" name="mixnet-l/mixnet_model/blocks_11/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/se/conv2d_44/Conv2D" out_port_id="0"/>
+		<IR id="438" name="mixnet-l/mixnet_model/blocks_9/se/conv2d_44/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/depthwise_conv2d_42/depthwise" out_port_id="0"/>
+		<IR id="687" name="mixnet-l/mixnet_model/blocks_14/depthwise_conv2d_42/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/conv2d_87/Conv2D" out_port_id="0"/>
+		<IR id="857" name="mixnet-l/mixnet_model/blocks_17/conv2d_87/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/conv2d_42/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="402" name="mixnet-l/mixnet_model/blocks_9/conv2d_42/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/se/conv2d_10/Conv2D" out_port_id="0"/>
+		<IR id="118" name="mixnet-l/mixnet_model/blocks_3/se/conv2d_10/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_11/depthwise_conv2d_30/depthwise" out_port_id="0"/>
+		<IR id="522" name="mixnet-l/mixnet_model/blocks_11/depthwise_conv2d_30/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/se/conv2d_49/Conv2D" out_port_id="0"/>
+		<IR id="491" name="mixnet-l/mixnet_model/blocks_10/se/conv2d_49/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/conv2d_4/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="53" name="mixnet-l/mixnet_model/blocks_1/conv2d_4/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/conv2d_36/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="343" name="mixnet-l/mixnet_model/blocks_8/conv2d_36/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/conv2d_61/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="594" name="mixnet-l/mixnet_model/blocks_12/conv2d_61/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/depthwise_conv2d_20/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="359" name="3492534928_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/swish_f32_1" out_port_id="0"/>
+		<IR id="369" name="mixnet-l/mixnet_model/blocks_8/swish_f32_1/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/se/conv2d_81/BiasAdd" out_port_id="0"/>
+		<IR id="799" name="mixnet-l/mixnet_model/blocks_16/se/conv2d_81/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/depthwise_conv2d_47/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="773" name="3499334996_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/Identity" out_port_id="0"/>
+		<IR id="814" name="mixnet-l/mixnet_model/blocks_16/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/Add" out_port_id="0"/>
+		<IR id="814" name="mixnet-l/mixnet_model/blocks_16/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/depthwise_conv2d_43/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="731" name="3506935072_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/conv2d_83/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="807" name="mixnet-l/mixnet_model/blocks_16/conv2d_83/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_11/swish_f32" out_port_id="0"/>
+		<IR id="520" name="mixnet-l/mixnet_model/blocks_11/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/conv2d_70/Conv2D" out_port_id="0"/>
+		<IR id="669" name="mixnet-l/mixnet_model/blocks_14/conv2d_70/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/se/conv2d_11/Conv2D" out_port_id="0"/>
+		<IR id="124" name="mixnet-l/mixnet_model/blocks_3/se/conv2d_11/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_11/swish_f32_1" out_port_id="0"/>
+		<IR id="526" name="mixnet-l/mixnet_model/blocks_11/swish_f32_1/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/split_1:1" out_port_id="1"/>
+		<IR id="561" name="mixnet-l/mixnet_model/blocks_12/split_1" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/split:2" out_port_id="2"/>
+		<IR id="823" name="mixnet-l/mixnet_model/blocks_17/split" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/se/Sigmoid" out_port_id="0"/>
+		<IR id="332" name="mixnet-l/mixnet_model/blocks_7/se/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/se/conv2d_91/Conv2D" out_port_id="0"/>
+		<IR id="899" name="mixnet-l/mixnet_model/blocks_18/se/conv2d_91/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/se/conv2d_27/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="273" name="mixnet-l/mixnet_model/blocks_6/se/conv2d_27/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/se/conv2d_44/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="437" name="mixnet-l/mixnet_model/blocks_9/se/conv2d_44/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/concat_1" out_port_id="0"/>
+		<IR id="363" name="mixnet-l/mixnet_model/blocks_8/concat_1" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/depthwise_conv2d_38/depthwise" out_port_id="0"/>
+		<IR id="628" name="mixnet-l/mixnet_model/blocks_13/depthwise_conv2d_38/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/split" out_port_id="0"/>
+		<IR id="62" name="mixnet-l/mixnet_model/blocks_2/split" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_0/Relu" out_port_id="0"/>
+		<IR id="14" name="mixnet-l/mixnet_model/blocks_0/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/split:1" out_port_id="1"/>
+		<IR id="458" name="mixnet-l/mixnet_model/blocks_10/split" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/swish_f32" out_port_id="0"/>
+		<IR id="410" name="mixnet-l/mixnet_model/blocks_9/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/depthwise_conv2d_37/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="625" name="3500535008_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/depthwise_conv2d_46/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="737" name="3504935052_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/split_1" out_port_id="0"/>
+		<IR id="906" name="mixnet-l/mixnet_model/blocks_18/split_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/Identity" out_port_id="0"/>
+		<IR id="721" name="mixnet-l/mixnet_model/blocks_14/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/Add" out_port_id="0"/>
+		<IR id="721" name="mixnet-l/mixnet_model/blocks_14/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/se/mul" out_port_id="0"/>
+		<IR id="128" name="mixnet-l/mixnet_model/blocks_3/se/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/depthwise_conv2d_9/depthwise" out_port_id="0"/>
+		<IR id="151" name="mixnet-l/mixnet_model/blocks_4/depthwise_conv2d_9/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/se/mul" out_port_id="0"/>
+		<IR id="852" name="mixnet-l/mixnet_model/blocks_17/se/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/split_2" out_port_id="0"/>
+		<IR id="50" name="mixnet-l/mixnet_model/blocks_1/split_2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/Identity" out_port_id="0"/>
+		<IR id="132" name="mixnet-l/mixnet_model/blocks_3/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/batch_normalization_2/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="132" name="mixnet-l/mixnet_model/blocks_3/batch_normalization_2/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/se/conv2d_59/Conv2D" out_port_id="0"/>
+		<IR id="580" name="mixnet-l/mixnet_model/blocks_12/se/conv2d_59/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/concat" out_port_id="0"/>
+		<IR id="250" name="mixnet-l/mixnet_model/blocks_6/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_6/conv2d_29/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="288" name="mixnet-l/mixnet_model/blocks_6/conv2d_29/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/depthwise_conv2d_22/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="414" name="3508935092_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_7/conv2d_31/Conv2D" out_port_id="0"/>
+		<IR id="299" name="mixnet-l/mixnet_model/blocks_7/conv2d_31/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/depthwise_conv2d_56/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="877" name="3508535088_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/Identity" out_port_id="0"/>
+		<IR id="514" name="mixnet-l/mixnet_model/blocks_10/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/Add" out_port_id="0"/>
+		<IR id="514" name="mixnet-l/mixnet_model/blocks_10/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/split_2" out_port_id="0"/>
+		<IR id="177" name="mixnet-l/mixnet_model/blocks_4/split_2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_1/depthwise_conv2d_3/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="40" name="3514135144_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_9/conv2d_42/Conv2D" out_port_id="0"/>
+		<IR id="403" name="mixnet-l/mixnet_model/blocks_9/conv2d_42/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/se/conv2d_37/Conv2D" out_port_id="0"/>
+		<IR id="373" name="mixnet-l/mixnet_model/blocks_8/se/conv2d_37/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/split:2" out_port_id="2"/>
+		<IR id="874" name="mixnet-l/mixnet_model/blocks_18/split" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/se/conv2d_10/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="117" name="mixnet-l/mixnet_model/blocks_3/se/conv2d_10/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/se/Sigmoid" out_port_id="0"/>
+		<IR id="758" name="mixnet-l/mixnet_model/blocks_15/se/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_2/conv2d_5/Conv2D" out_port_id="0"/>
+		<IR id="64" name="mixnet-l/mixnet_model/blocks_2/conv2d_5/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/depthwise_conv2d_51/depthwise" out_port_id="0"/>
+		<IR id="825" name="mixnet-l/mixnet_model/blocks_17/depthwise_conv2d_51/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/split:1" out_port_id="1"/>
+		<IR id="547" name="mixnet-l/mixnet_model/blocks_12/split" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="truediv" out_port_id="0"/>
+		<IR id="4" name="sub/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/concat_1" out_port_id="0"/>
+		<IR id="570" name="mixnet-l/mixnet_model/blocks_12/concat_1" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_3/se/conv2d_11/BiasAdd" out_port_id="0"/>
+		<IR id="126" name="mixnet-l/mixnet_model/blocks_3/se/conv2d_11/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/conv2d_57/Conv2D" out_port_id="0"/>
+		<IR id="549" name="mixnet-l/mixnet_model/blocks_12/conv2d_57/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="logits" out_port_id="0"/>
+		<IR id="927" name="mixnet-l/mixnet_model/head/dense/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/head/dense/BiasAdd" out_port_id="0"/>
+		<IR id="927" name="mixnet-l/mixnet_model/head/dense/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/depthwise_conv2d_52/depthwise" out_port_id="0"/>
+		<IR id="827" name="mixnet-l/mixnet_model/blocks_17/depthwise_conv2d_52/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_0/batch_normalization/FusedBatchNormV3" out_port_id="0"/>
+		<IR id="13" name="mixnet-l/mixnet_model/blocks_0/batch_normalization/FusedBatchNormV3/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_4/se/conv2d_15/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="163" name="mixnet-l/mixnet_model/blocks_4/se/conv2d_15/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_17/conv2d_84/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="815" name="mixnet-l/mixnet_model/blocks_17/batch_normalization/FusedBatchNormV3/mean/Fused_Mul_2000520007_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/se/swish_f32" out_port_id="0"/>
+		<IR id="223" name="mixnet-l/mixnet_model/blocks_5/se/swish_f32/mul_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_10/depthwise_conv2d_29/depthwise" out_port_id="0"/>
+		<IR id="480" name="mixnet-l/mixnet_model/blocks_10/depthwise_conv2d_29/depthwise" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_12/conv2d_61/Conv2D" out_port_id="0"/>
+		<IR id="595" name="mixnet-l/mixnet_model/blocks_12/conv2d_61/Conv2D" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/depthwise_conv2d_18/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="355" name="3496934972_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_8/concat_2" out_port_id="0"/>
+		<IR id="391" name="mixnet-l/mixnet_model/blocks_8/concat_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_5/se/conv2d_22/Conv2D/ReadVariableOp" out_port_id="0"/>
+		<IR id="224" name="mixnet-l/mixnet_model/blocks_5/se/conv2d_22/Conv2D/ReadVariableOp/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_15/split:2" out_port_id="2"/>
+		<IR id="730" name="mixnet-l/mixnet_model/blocks_15/split" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_16/se/Sigmoid" out_port_id="0"/>
+		<IR id="800" name="mixnet-l/mixnet_model/blocks_16/se/Sigmoid" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/Identity" out_port_id="0"/>
+		<IR id="916" name="mixnet-l/mixnet_model/blocks_18/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_18/Add" out_port_id="0"/>
+		<IR id="916" name="mixnet-l/mixnet_model/blocks_18/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_13/se/mul" out_port_id="0"/>
+		<IR id="649" name="mixnet-l/mixnet_model/blocks_13/se/mul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mixnet-l/mixnet_model/blocks_14/depthwise_conv2d_40/depthwise/ReadVariableOp" out_port_id="0"/>
+		<IR id="682" name="3503335036_const" out_port_id="1"/>
+	</map>
+</mapping>

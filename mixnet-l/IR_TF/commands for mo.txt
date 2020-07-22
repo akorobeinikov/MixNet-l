@@ -1,0 +1,6 @@
+model_optimizer_args:
+  - --input_shape=[1,224,224,3]
+  - --input=IteratorGetNext:0
+  - --output=logits
+  - --input_meta_graph=path/to/meta
+  - --reverse_input_channels
