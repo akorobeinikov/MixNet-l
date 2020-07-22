@@ -1,0 +1,48 @@
+models:
+
+  - name: mixnet-l
+
+    launchers:
+      - framework: dlsdk
+        device: CPU
+        tags:
+          - FP32
+        model:   model.ckpt.xml
+        weights: model.ckpt.bin
+        adapter: classification
+
+      - framework: dlsdk
+        device: GPU
+        tags:
+          - FP16
+        model:   model.ckpt.xml
+        weights: model.ckpt.bin
+        adapter: classification
+
+    datasets:
+        
+      - name: imagenet_1000_classes
+        annotation_conversion:
+           converter: imagenet
+           annotation_file: val.txt
+        
+        data_source: ILSVRC2012_img_val
+        metrics:
+          - name: accuracy@top1
+            type: accuracy
+            top_k: 1
+          - name: accuracy@top5
+            type: accuracy
+            top_k: 5
+        
+        preprocessing:
+          - type: crop
+            central_fraction: 0.875
+            use_pillow: True
+          - type: resize
+            size: 224
+            use_pillow: True
+            interpolation: BICUBIC
+
+
+
